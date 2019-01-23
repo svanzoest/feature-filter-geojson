@@ -11,7 +11,7 @@ console.time('create ' + N + '-item filter')
 var f = filter(arr)
 console.timeEnd('create ' + N + '-item filter')
 
-var feature = {properties: {foo: 0}}
+var feature = { properties: { foo: 0 } }
 
 console.time('filter 1 million times')
 for (var i = 0; i < 1000000; i++) {
